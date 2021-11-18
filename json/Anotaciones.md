@@ -1,7 +1,6 @@
 # Información de Análisis para el Proyecto de Venta de Autos
-------------------------------
+
 ## Accesorios del Vehículo
-------------------------------
 
 ### Seguridad:
 - Repartidor electrónico de frenado
@@ -23,9 +22,8 @@
 - Parlantes/Bajos
 - Radio CD
 
-------------------------------
 ## Características del Vehículo
-------------------------------
+
 - Marca
 - Modelo
 - Categoría (Tipo de vehículo)
@@ -48,13 +46,14 @@
 - Vendedor (Id, Nombre, Appellidos, email, Teléfono (whatsapp), [P.Natural,P.Jurídica])
 - Vendedor-Vehículo (un vendedor puede ofertar uno o varios vehículos, concesionario, ...)
 
-## Registro del Vendedor    (Jordan)
-## Ingreso (Login) del vendedor (necesario para Registrar Vehículo) (Jordan)
-## Registro del Vehículo (solo vendedor propietario)
-## Datos del comprador (solo para fines de comunicación)
-## upload de fotos
-## Filtro principal - Pagina Principal (Diego)
-## Interface del anuncio (vehiculo) (Bernie)
+## Interfaces a desarrollar u otras anotaciones
+- Registro del Vendedor    (Jordan)
+- Ingreso (Login) del vendedor (necesario para Registrar Vehículo) (Jordan)
+- Registro del Vehículo (solo vendedor propietario)
+- Datos del comprador (solo para fines de comunicación)
+- upload de fotos
+- Filtro principal - Pagina Principal (Diego)
+- Interface del anuncio (vehiculo) (Bernie)
 
 ## Filtro lateral
 - Condición [nuevo, usuado]
