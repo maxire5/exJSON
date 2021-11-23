@@ -6,7 +6,7 @@
            {"key":"hatchback","value":"Hatchback"},
            {"key":"deportivo","value":"Deportivo"},
            {"key":"pick-up","value":"Pick-Up"},
-           {"key":"vans","value":"Vans","count":209},
+           {"key":"vans","value":"Vans"},
            {"key":"station-wagon","value":"Station Wagon"},
            {"key":"otros","value":"Otros"}
        ],

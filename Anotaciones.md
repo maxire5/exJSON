@@ -16,7 +16,7 @@
 - Luces Halógenas
 - Aros de Aleación
 
-### Equipmiento
+### Equipamiento
 - Retrovisores Eléctricos
 - Neblineros
 - Parlantes/Bajos

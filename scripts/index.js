@@ -7,7 +7,7 @@ const section = document.querySelector('section');
 
 // se debe almacenar la URL del JSON que se quiere recuperar en una variable.
 // const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
-const requestURL = "./json/data.json" 
+const requestURL = "./json/data.json";
 
 // crear una nueva instancia de objeto de solicitud desde el constructorXMLHttpRequest,
 // utilizando la palabra clave new.
