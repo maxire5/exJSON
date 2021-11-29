@@ -1,96 +1,232 @@
 {
-   "autos": [
-     {
-       "marca": "Toyota",
-       "modelos": [
-         "Corolla",
-         "Yaris",
-         "Rav4",
-         "Hilux",
-         "Land Cruiser Prado",
-         "Fortuner",
-         "Etios",
-         "Auris",
-         "Avensis",
-         "Corona",
-         "4runner",
-         "Avanza",
-         "Caldina",
-         "Camry",
-         "Celica",
-         "Chaser",
-         "Corona",
-         "Corsa",
-         "Cressida",
-         "Highlander",
-         "Mark",
-         "Prius",
-         "Probox",
-         "Ractis",
-         "Scout",
-         "Succeed",
-         "Tacoma",
-         "Tercel",
-         "Tundra",
-         "Urban Cruiser",
-         "Voxy",
-         "Yaris",
-         "otro modelo"
-       ]
-     },
-     {
-       "marca": "Kia",
-       "modelos": [
-         "Cerato",
-         "Cerato Hatchback",
-         "Sportage",
-         "Sorento",
-         "Carnival",
-         "Soul",
-         "Koup",
-         "Picato",
-         "Picanto Cross",
-         "Cadenza",
-         "Carens",
-         "Mohave",
-         "Optima",
-         "Rio",
-         "Rio Hatchback",
-         "Soluto",
-         "Stinger",
-         "Towner",
-         "otro modelo"
-       ]
-     },
-     {
-       "marca": "Nissan",
-       "modelos": [
-         "X-Trail",
-         "Sentra",
-         "Versa",
-         "Tiida",
-         "Qashqai",
-         "Frontier",
-         "Kicks",
-         "March",
-         "Almera",
-         "Altima",
-         "Bluebird",
-         "Cube",
-         "Juke",
-         "Liberty",
-         "Maxima",
-         "Murano",
-         "Navara",
-         "Np300",
-         "Pathfinder",
-         "Patrol",
-         "Primera",
-         "Pulsar",
-         "Silvia",
-         "Skyline",
-         "Sunny"
-       ]
-     }
-   ]
- }
+  "autos": [
+    {
+      "marca": "Toyota",
+      "modelos": [
+        "Corolla",
+        "Yaris",
+        "Rav4",
+        "Hilux",
+        "Land Cruiser Prado",
+        "Fortuner",
+        "Etios",
+        "Auris",
+        "Avensis",
+        "Corona",
+        "4runner",
+        "Avanza",
+        "Caldina",
+        "Camry",
+        "Celica",
+        "Chaser",
+        "Corona",
+        "Corsa",
+        "Cressida",
+        "Highlander",
+        "Mark",
+        "Prius",
+        "Probox",
+        "Ractis",
+        "Scout",
+        "Succeed",
+        "Tacoma",
+        "Tercel",
+        "Tundra",
+        "Urban Cruiser",
+        "Voxy",
+        "Yaris",
+        "otro modelo"
+      ],
+      "id": 1
+    },
+    {
+      "marca": "Kia",
+      "modelos": [
+        "Cerato",
+        "Cerato Hatchback",
+        "Sportage",
+        "Sorento",
+        "Carnival",
+        "Soul",
+        "Koup",
+        "Picato",
+        "Picanto Cross",
+        "Cadenza",
+        "Carens",
+        "Mohave",
+        "Optima",
+        "Rio",
+        "Rio Hatchback",
+        "Soluto",
+        "Stinger",
+        "Towner",
+        "otro modelo"
+      ],
+      "id": 2
+    },
+    {
+      "marca": "Nissan",
+      "modelos": [
+        "X-Trail",
+        "Sentra",
+        "Versa",
+        "Tiida",
+        "Qashqai",
+        "Frontier",
+        "Kicks",
+        "March",
+        "Almera",
+        "Altima",
+        "Bluebird",
+        "Cube",
+        "Juke",
+        "Liberty",
+        "Maxima",
+        "Murano",
+        "Navara",
+        "Np300",
+        "Pathfinder",
+        "Patrol",
+        "Primera",
+        "Pulsar",
+        "Silvia",
+        "Skyline",
+        "Sunny"
+      ],
+      "id": 3
+    }
+  ],
+  "categorias": [
+    {
+      "categoria": "sedan",
+      "id": 1
+    },
+    {
+      "categoria": "camioneta-suv",
+      "id": 2
+    },
+    {
+      "categoria": "hatchback",
+      "id": 3
+    },
+    {
+      "categoria": "deportivo",
+      "id": 4
+    },
+    {
+      "tipo": "pick-up",
+      "id": 5
+    },
+    {
+      "categoria": "vans",
+      "id": 6
+    },
+    {
+      "categoria": "station-wagon",
+      "id": 7
+    },
+    {
+      "categoria": "otros",
+      "id": 8
+    }
+  ],
+  "vendedores": [
+    {
+      "nombre": "Diego",
+      "Apellido": "Perez",
+      "email": "dperez@hotmail.com",
+      "contraseña": "123456",
+      "dni": "41578512",
+      "celular": "995676335",
+      "id": 1
+    },
+    {
+      "nombre": "Juan",
+      "Apellido": "Gonzales",
+      "email": "jgonzales@gmail.com",
+      "contraseña": "123456",
+      "dni": "08541263",
+      "celular": "999456123",
+      "id": 2
+    }
+  ],
+  "combustibles": [
+    {
+      "combustible": "gasolina",
+      "id": 1
+    },
+    {
+      "combustible": "diesel",
+      "id": 2
+    },
+    {
+      "combustible": "dual-glp",
+      "id": 3
+    },
+    {
+      "combustible": "dual-gnv",
+      "id": 4
+    },
+    {
+      "combustible": "híbrido",
+      "id": 5
+    }
+  ],
+  "transmisiones": [
+    {
+      "transmision": "mecanica",
+      "id": 1
+    },
+    {
+      "transmision": "automatica",
+      "id": 2
+    }
+  ],
+  "ofertas": [
+    {
+      "idVendedor": 2,
+      "descripcion": "Toyota Yaris semi-nuevo, 4 puertas, 1300cc, con aros de aleación, 2 Airbags",
+      "idMarca": 1,
+      "marca": "toyota",
+      "modelo": "Yaris",
+      "idCategoria": 1,
+      "categoria": "sedan",
+      "añomodelo": "2016",
+      "kilometraje": "20000",
+      "idtransmision": 1,
+      "transmision": "mecánica",
+      "idCombustible": 3,
+      "combustible": "dual-glp",
+      "color": "rojo",
+      "preciodolares": "10000",
+      "photos": [
+        "https://cdn.motor1.com/images/mgl/WVLZ6/s1/4x3/lanzamiento-toyota-yaris-2021.webp",
+        "https://cde.neoauto.pe/autos_usados/196x164/650434/650434_4851468.jpg?20211126110224"
+      ],
+      "id": 1
+    },
+    {
+      "idVendedor": 2,
+      "descripcion": "KIA CERATO 2019 - AZUL AZURE - SEDAN Impecable (FACTURABLE 100%) - Motor a gasolina 1.6 LT de 4 cilindros en línea con potencia de 126 HP / 6.300 RPM y 155 Nm de Torque",
+      "idMarca": 2,
+      "marca": "Kia",
+      "modelo": "Cerato",
+      "idCategoria": 1,
+      "categoria": "sedan",
+      "añomodelo": "2019",
+      "kilometraje": "15000",
+      "idtransmision": 2,
+      "transmision": "automatica",
+      "idCombustible": 4,
+      "combustible": "dual-gnv",
+      "color": "azul",
+      "preciodolares": "21000",
+      "photos": [
+        "https://cde.neoauto.pe/autos_usados/800x600/113873/113873_5224061.jpg?20211126110224",
+        "https://cde.neoauto.pe/autos_usados/800x600/113873/113873_6546036.jpg?20211126110224"
+      ],
+      "id": 1
+    }
+  ]
+
+}
