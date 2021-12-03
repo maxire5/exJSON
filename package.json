@@ -1,10 +1,10 @@
 {
   "name": "exjson",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dbFake": "npx json-server --watch ./json/db.json --port 4000"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/maxire5/exJSON/issues"
   },
-  "homepage": "https://github.com/maxire5/exJSON#readme"
+  "homepage": "https://github.com/maxire5/exJSON#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }

@@ -55,7 +55,7 @@ console.log("Inicio: Aqui empieza");
 // una vez finalizado asyncronamente las funciones de marcas y modelos, se muestra sus resultados:
 // se simula asyncronía y para verificar la captura del arreglo de marcas de autos y/o modelos de una marca
 setTimeout(function() {console.log("Muestra arreglo de marcas fuera de la función getMarcas(): ", marcas)}, 2000);
-setTimeout(function() {console.log("Muestra arreglo de marcas fuera de la función getMarcas(): ", modelos)}, 2000);
+setTimeout(function() {console.log("Muestra arreglo de marcas fuera de la función getModelos(): ", modelos)}, 2000);
 setTimeout(function() {console.log("Muestra marca fuera de la función getMarcas(): ", marcas[0])}, 2000);
 setTimeout(function() {console.log("Muestra marca fuera de la función getMarcas(): ", marcas[1])}, 2000);
 setTimeout(function() {console.log("Final: Aqui termina")}, 2000);

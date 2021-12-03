@@ -169,7 +169,7 @@
       "id": 4
     },
     {
-      "tipo": "pick-up",
+      "categoria": "pick-up",
       "id": 5
     },
     {
@@ -346,20 +346,18 @@
       "idMarca": 1,
       "marca": "toyota",
       "modelo": "Yaris",
-      "idCategoria": 1,
       "categoria": "sedan",
       "añomfabricacion": "2015",
       "añomodelo": "2016",
       "kilometraje": "20000",
-      "idtransmision": 1,
       "transmision": "mecánica",
-      "idCombustible": 3,
       "combustible": "dual-glp",
       "cilindrada": "1300",
       "numeropuertas": 4,
       "color": "rojo",
       "preciodolares": "10000",
       "autonuevo": false,
+      "region": "Lima",
       "photos": [
         "https://cdn.motor1.com/images/mgl/WVLZ6/s1/4x3/lanzamiento-toyota-yaris-2021.webp",
         "https://cde.neoauto.pe/autos_usados/196x164/650434/650434_4851468.jpg?20211126110224"
@@ -372,20 +370,18 @@
       "idMarca": 2,
       "marca": "Kia",
       "modelo": "Cerato",
-      "idCategoria": 1,
       "categoria": "sedan",
       "añomfabricacion": "2018",
       "añomodelo": "2019",
       "kilometraje": "15000",
-      "idtransmision": 2,
       "transmision": "automatica",
-      "idCombustible": 4,
       "combustible": "dual-gnv",
       "cilindrada": "1600",
       "numeropuertas": 4,
       "color": "azul",
       "preciodolares": "21000",
       "autonuevo": false,
+      "region": "Lima",
       "photos": [
         "https://cde.neoauto.pe/autos_usados/800x600/113873/113873_5224061.jpg?20211126110224",
         "https://cde.neoauto.pe/autos_usados/800x600/113873/113873_6546036.jpg?20211126110224"
@@ -398,24 +394,22 @@
       "idMarca": 1,
       "marca": "toyota",
       "modelo": "Corolla",
-      "idCategoria": 1,
       "categoria": "sedan",
       "añomfabricacion": "2017",
       "añomodelo": "2017",
       "kilometraje": "50739",
-      "idtransmision": 2,
       "transmision": "automatica",
-      "idCombustible": 1,
       "combustible": "gasolina",
       "cilindrada": "1800",
       "numeropuertas": 4,
       "color": "negro",
       "preciodolares": "18000",
       "autonuevo": false,
+      "region": "Lima",
       "photos": [
         "https://cde.neoauto.pe/autos_usados/800x600/663163/663163_2246008.jpg?20211130002909",
         "https://cde.neoauto.pe/autos_usados/196x164/663163/663163_7295871.jpg?20211130002909",
-    "https://cde.neoauto.pe/autos_usados/196x164/663163/663163_8169825.jpg?20211130002909"
+        "https://cde.neoauto.pe/autos_usados/196x164/663163/663163_8169825.jpg?20211130002909"
       ],
       "id": 3
     }
